@@ -1,0 +1,12 @@
+C:\Users\graihy\source\repos\WorkingWithRabbitMQ\WorkingWithRabbitMQ\bin\Debug\WorkingWithRabbitMQ.exe.config
+C:\Users\graihy\source\repos\WorkingWithRabbitMQ\WorkingWithRabbitMQ\bin\Debug\WorkingWithRabbitMQ.exe
+C:\Users\graihy\source\repos\WorkingWithRabbitMQ\WorkingWithRabbitMQ\bin\Debug\WorkingWithRabbitMQ.pdb
+C:\Users\graihy\source\repos\WorkingWithRabbitMQ\WorkingWithRabbitMQ\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+C:\Users\graihy\source\repos\WorkingWithRabbitMQ\WorkingWithRabbitMQ\bin\Debug\RabbitMQ.Client.dll
+C:\Users\graihy\source\repos\WorkingWithRabbitMQ\WorkingWithRabbitMQ\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+C:\Users\graihy\source\repos\WorkingWithRabbitMQ\WorkingWithRabbitMQ\bin\Debug\RabbitMQ.Client.xml
+C:\Users\graihy\source\repos\WorkingWithRabbitMQ\WorkingWithRabbitMQ\obj\Debug\WorkingWithRabbitMQSimply.csprojAssemblyReference.cache
+C:\Users\graihy\source\repos\WorkingWithRabbitMQ\WorkingWithRabbitMQ\obj\Debug\WorkingWithRabbitMQSimply.csproj.CoreCompileInputs.cache
+C:\Users\graihy\source\repos\WorkingWithRabbitMQ\WorkingWithRabbitMQ\obj\Debug\WorkingWithRabbitMQSimply.csproj.CopyComplete
+C:\Users\graihy\source\repos\WorkingWithRabbitMQ\WorkingWithRabbitMQ\obj\Debug\WorkingWithRabbitMQ.exe
+C:\Users\graihy\source\repos\WorkingWithRabbitMQ\WorkingWithRabbitMQ\obj\Debug\WorkingWithRabbitMQ.pdb

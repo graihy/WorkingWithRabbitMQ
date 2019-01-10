@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithRabbitMQSimply", "WorkingWithRabbitMQ\WorkingWithRabbitMQSimply.csproj", "{D80C77B1-6C4D-4E78-8BEB-11D2D07453AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WorkingWithRabbitMQClient", "WorkingWithRabbitMQClient", "{2E2FD92E-C207-43C3-9584-E9AF233FA7AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WorkingWithMassTransit", "WorkingWithMassTransit", "{3ACCE149-2D91-436F-B526-B2AE0386699E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMqNetTests", "RabbitMqNetTests\RabbitMqNetTests.csproj", "{53720C7F-9054-4383-A362-A278E3A9AA4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMq.OneWayMessage.Receiver", "RabbitMq.OneWayMessage.Receiver\RabbitMq.OneWayMessage.Receiver.csproj", "{C36987F4-E208-489D-8A8C-18616C1487C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D80C77B1-6C4D-4E78-8BEB-11D2D07453AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D80C77B1-6C4D-4E78-8BEB-11D2D07453AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D80C77B1-6C4D-4E78-8BEB-11D2D07453AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D80C77B1-6C4D-4E78-8BEB-11D2D07453AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53720C7F-9054-4383-A362-A278E3A9AA4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53720C7F-9054-4383-A362-A278E3A9AA4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53720C7F-9054-4383-A362-A278E3A9AA4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53720C7F-9054-4383-A362-A278E3A9AA4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C36987F4-E208-489D-8A8C-18616C1487C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C36987F4-E208-489D-8A8C-18616C1487C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C36987F4-E208-489D-8A8C-18616C1487C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C36987F4-E208-489D-8A8C-18616C1487C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{53720C7F-9054-4383-A362-A278E3A9AA4D} = {2E2FD92E-C207-43C3-9584-E9AF233FA7AB}
+		{C36987F4-E208-489D-8A8C-18616C1487C9} = {2E2FD92E-C207-43C3-9584-E9AF233FA7AB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0408BF3-BE4D-46E3-AA0C-A905D08EFFCE}
+	EndGlobalSection
+EndGlobal
