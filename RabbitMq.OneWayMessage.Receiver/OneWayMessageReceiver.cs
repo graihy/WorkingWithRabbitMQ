@@ -15,7 +15,7 @@ namespace RabbitMq.OneWayMessage.Receiver
         }
 
 
-        // is this worked with git
+        // is this worked with git 333
         public override void HandleBasicDeliver(string consumerTag, ulong deliveryTag, bool redelivered, string exchange, string routingKey, IBasicProperties properties, byte[] body)
         {
             Console.WriteLine("Message received by the consumer. Check the debug window for details.");
