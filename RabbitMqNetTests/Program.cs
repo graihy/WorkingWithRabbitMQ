@@ -26,8 +26,7 @@ namespace RabbitMqNetTests
             PublicationAddress address = new PublicationAddress(ExchangeType.Fanout, "my.first.exchange", "aaa");
             channel.BasicPublish(address, properties, Encoding.UTF8.GetBytes("This is a message from the RabbitMq .NET driver"));
             //channel.BasicPublish("my.first.exchange", "", null, Encoding.UTF8.GetBytes("This is a message from the RabbitMq .NET driver bbb"));
-
-
+            
             channel.Close();
             connection.Close();
             Console.WriteLine(string.Concat("Channel is closed: ", channel.IsClosed));

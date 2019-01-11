@@ -27,6 +27,7 @@ namespace RabbitMq.OneWayMessage.Receiver
             channel.BasicQos(0, 1, false);
             DefaultBasicConsumer basicConsumer = new OneWayMessageReceiver(channel);
             channel.BasicConsume("my.first.queue", false, basicConsumer);
+            // is this added
 
         }
 

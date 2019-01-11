@@ -10,3 +10,15 @@ C:\Users\graihy\source\repos\WorkingWithRabbitMQ\RabbitMqNetTests\obj\Debug\Rabb
 C:\Users\graihy\source\repos\WorkingWithRabbitMQ\RabbitMqNetTests\obj\Debug\RabbitMqNetTests.csproj.CopyComplete
 C:\Users\graihy\source\repos\WorkingWithRabbitMQ\RabbitMqNetTests\obj\Debug\RabbitMqNetTests.exe
 C:\Users\graihy\source\repos\WorkingWithRabbitMQ\RabbitMqNetTests\obj\Debug\RabbitMqNetTests.pdb
+D:\Development\Messaging\WorkingWithRabbitMQ\RabbitMqNetTests\bin\Debug\RabbitMqNetTests.exe.config
+D:\Development\Messaging\WorkingWithRabbitMQ\RabbitMqNetTests\bin\Debug\RabbitMqNetTests.exe
+D:\Development\Messaging\WorkingWithRabbitMQ\RabbitMqNetTests\bin\Debug\RabbitMqNetTests.pdb
+D:\Development\Messaging\WorkingWithRabbitMQ\RabbitMqNetTests\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+D:\Development\Messaging\WorkingWithRabbitMQ\RabbitMqNetTests\bin\Debug\RabbitMQ.Client.dll
+D:\Development\Messaging\WorkingWithRabbitMQ\RabbitMqNetTests\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+D:\Development\Messaging\WorkingWithRabbitMQ\RabbitMqNetTests\bin\Debug\RabbitMQ.Client.xml
+D:\Development\Messaging\WorkingWithRabbitMQ\RabbitMqNetTests\obj\Debug\RabbitMqNetTests.csprojAssemblyReference.cache
+D:\Development\Messaging\WorkingWithRabbitMQ\RabbitMqNetTests\obj\Debug\RabbitMqNetTests.csproj.CoreCompileInputs.cache
+D:\Development\Messaging\WorkingWithRabbitMQ\RabbitMqNetTests\obj\Debug\RabbitMqNetTests.csproj.CopyComplete
+D:\Development\Messaging\WorkingWithRabbitMQ\RabbitMqNetTests\obj\Debug\RabbitMqNetTests.exe
+D:\Development\Messaging\WorkingWithRabbitMQ\RabbitMqNetTests\obj\Debug\RabbitMqNetTests.pdb
