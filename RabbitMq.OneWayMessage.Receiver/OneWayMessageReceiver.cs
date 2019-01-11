@@ -14,6 +14,8 @@ namespace RabbitMq.OneWayMessage.Receiver
             _channel = channel;
         }
 
+
+        // is this worked with git
         public override void HandleBasicDeliver(string consumerTag, ulong deliveryTag, bool redelivered, string exchange, string routingKey, IBasicProperties properties, byte[] body)
         {
             Console.WriteLine("Message received by the consumer. Check the debug window for details.");
@@ -22,7 +24,7 @@ namespace RabbitMq.OneWayMessage.Receiver
             Debug.WriteLine(string.Concat("Consumer tag: ", consumerTag));
             Debug.WriteLine(string.Concat("Delivery tag: ", deliveryTag));
             Debug.WriteLine(string.Concat("Message: ", Encoding.UTF8.GetString(body)));
-            _channel.BasicAck(deliveryTag, false); 
+            _channel.BasicAck(deliveryTag, false);
         }
     }
 }

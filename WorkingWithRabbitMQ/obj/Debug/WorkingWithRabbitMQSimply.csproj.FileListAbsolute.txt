@@ -17,7 +17,6 @@ D:\Development\Messaging\WorkingWithRabbitMQ\WorkingWithRabbitMQ\bin\Debug\Micro
 D:\Development\Messaging\WorkingWithRabbitMQ\WorkingWithRabbitMQ\bin\Debug\RabbitMQ.Client.dll
 D:\Development\Messaging\WorkingWithRabbitMQ\WorkingWithRabbitMQ\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
 D:\Development\Messaging\WorkingWithRabbitMQ\WorkingWithRabbitMQ\bin\Debug\RabbitMQ.Client.xml
-D:\Development\Messaging\WorkingWithRabbitMQ\WorkingWithRabbitMQ\obj\Debug\WorkingWithRabbitMQSimply.csprojAssemblyReference.cache
 D:\Development\Messaging\WorkingWithRabbitMQ\WorkingWithRabbitMQ\obj\Debug\WorkingWithRabbitMQSimply.csproj.CoreCompileInputs.cache
 D:\Development\Messaging\WorkingWithRabbitMQ\WorkingWithRabbitMQ\obj\Debug\WorkingWithRabbitMQSimply.csproj.CopyComplete
 D:\Development\Messaging\WorkingWithRabbitMQ\WorkingWithRabbitMQ\obj\Debug\WorkingWithRabbitMQ.exe
