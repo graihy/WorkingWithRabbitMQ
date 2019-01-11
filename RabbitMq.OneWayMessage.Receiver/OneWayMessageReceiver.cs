@@ -1,10 +1,7 @@
 ﻿using RabbitMQ.Client;
 using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace RabbitMq.OneWayMessage.Receiver
 {
@@ -25,7 +22,7 @@ namespace RabbitMq.OneWayMessage.Receiver
             Debug.WriteLine(string.Concat("Consumer tag: ", consumerTag));
             Debug.WriteLine(string.Concat("Delivery tag: ", deliveryTag));
             Debug.WriteLine(string.Concat("Message: ", Encoding.UTF8.GetString(body)));
-            _channel.BasicAck(deliveryTag, false);
+            _channel.BasicAck(deliveryTag, false); 
         }
     }
 }

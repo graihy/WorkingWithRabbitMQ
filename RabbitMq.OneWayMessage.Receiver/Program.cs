@@ -38,5 +38,7 @@ namespace RabbitMq.OneWayMessage.Receiver
             return connectionFactory;
         }
 
+
+
     }
 }
