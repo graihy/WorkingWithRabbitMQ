@@ -22,7 +22,7 @@ namespace WorkingWithRabbitMQ
         {
             //DirectPublish1();
             //DirectPublish2();
-            SetUpFanoutExchange();
+            //SetUpFanoutExchange();
         }
 
 
@@ -57,32 +57,6 @@ namespace WorkingWithRabbitMQ
             Console.WriteLine("Main done...");
             Console.ReadKey();
 
-        }
-
-        private static void SetUpFanoutExchange()
-        {
-            IConnection connection = connectionFactory.CreateConnection();
-            IModel channel = connection.CreateModel();
-
-            channel.ExchangeDeclare("mycompany.fanout.exchange", ExchangeType.Fanout, true, false, null);
-            channel.QueueDeclare("mycompany.queues.accounting", true, false, false, null);
-            channel.QueueDeclare("mycompany.queues.management", true, false, false, null);
-            channel.QueueBind("mycompany.queues.accounting", "mycompany.fanout.exchange", "");
-            channel.QueueBind("mycompany.queues.management", "mycompany.fanout.exchange", "");
-
-            IBasicProperties properties = channel.CreateBasicProperties();
-            properties.Persistent = true;
-            properties.ContentType = "text/plain";
-            PublicationAddress address = new PublicationAddress(ExchangeType.Fanout, "mycompany.fanout.exchange", "");
-            channel.BasicPublish(address, properties, Encoding.UTF8.GetBytes("A new huge order has just come in worth $1M!!!!!"));
-
-            channel.BasicPublish("mycompany.fanout.exchange", "", properties, Encoding.UTF8.GetBytes("A new huge order has just come in worth $1M!!!!!"));
-
-            channel.Close();
-            connection.Close();
-            Console.WriteLine(string.Concat("Channel is closed: ", channel.IsClosed));
-
-            Console.WriteLine("Main done...");
         }
 
 

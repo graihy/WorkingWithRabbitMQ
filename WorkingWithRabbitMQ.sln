@@ -9,9 +9,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WorkingWithRabbitMQClient",
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WorkingWithMassTransit", "WorkingWithMassTransit", "{3ACCE149-2D91-436F-B526-B2AE0386699E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMqNetTests", "RabbitMqNetTests\RabbitMqNetTests.csproj", "{53720C7F-9054-4383-A362-A278E3A9AA4D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMqMessage.Publisher", "RabbitMqNetTests\RabbitMqMessage.Publisher.csproj", "{53720C7F-9054-4383-A362-A278E3A9AA4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMq.OneWayMessage.Receiver", "RabbitMq.OneWayMessage.Receiver\RabbitMq.OneWayMessage.Receiver.csproj", "{C36987F4-E208-489D-8A8C-18616C1487C9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMq.OneWayMessage.Subscriber", "RabbitMq.OneWayMessage.Receiver\RabbitMq.OneWayMessage.Subscriber.csproj", "{C36987F4-E208-489D-8A8C-18616C1487C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
