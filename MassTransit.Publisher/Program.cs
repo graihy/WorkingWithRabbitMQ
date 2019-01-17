@@ -13,9 +13,26 @@ namespace MassTransit.Publisher
 
         static void Main(string[] args)
         {
-            RunMassTransitPublisherWithRabbit();
+            for (int i = 0; i < 20; i++)
+            {
+                
+                MaroofRabbitMQSingleton.Instance.Send<IRegisterCustomer>(new
+                {
+                    Address = "New Street",
+                    Id = Guid.NewGuid(),
+                    Preferred = true,
+                    RegisteredUtc = DateTime.UtcNow,
+                    Name = "Nice people LTD",
+                    Type = 1,
+                    DefaultDiscount = 0
+                }, "mycompany.domains.queues");
+                
+            }
+            //at application end dispose connection
+            MaroofRabbitMQSingleton.Instance.Dispose();
         }
 
+        //directly use send/publish without open/close the connection
         private static void RunMassTransitPublisherWithRabbit()
         {
             string rabbitMqAddress = "rabbitmq://dinosaur.rmq.cloudamqp.com/rsydflmj";
