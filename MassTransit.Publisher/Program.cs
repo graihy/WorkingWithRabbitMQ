@@ -13,10 +13,9 @@ namespace MassTransit.Publisher
 
         static void Main(string[] args)
         {
-            for (int i = 0; i < 20; i++)
+            for (int i = 0; i < 4; i++)
             {
-                
-                MaroofRabbitMQSingleton.Instance.Send<IRegisterCustomer>(new
+                SingletonMassTransit.Instance.Send<IRegisterCustomer>(new
                 {
                     Address = "New Street",
                     Id = Guid.NewGuid(),
@@ -29,7 +28,7 @@ namespace MassTransit.Publisher
                 
             }
             //at application end dispose connection
-            MaroofRabbitMQSingleton.Instance.Dispose();
+            SingletonMassTransit.Instance.Dispose();
         }
 
         //directly use send/publish without open/close the connection
